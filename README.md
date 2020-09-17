@@ -26,7 +26,7 @@ As mentioned earlier, the FD001 sub-dataset has 100 engines, each of which has 2
 
 <img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/3D.PNG" height="300" width="400">
 
-<img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Attack_Signatures.PNG" height="600" width="1000">
+<img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Attack_Signatures.PNG" height="550" width="1000">
 
 # Impact of adversarial attacks on turbofan engine PdM
 From Fig. 5, we observe that the FGSM attack (with $\epsilon=0.3$) increases the RMSE of CNN, LSTM and GRU models by 231\%, 234\%, and 194\%, respectively, when compared to the DL models without attack. For the BIM attack (with $\alpha = 0.003$, $\epsilon = 0.3$ and $I= 100$), we also observe the similar trend, that is the RMSE for the CNN, LSTM and GRU model is increased by 394\%, 451\%, and 446\%, respectively, when compared to the DL models without attack. In all cases, as shown in Fig. 5, the BIM attack results in a larger RMSE when compared to the FGSM attack.
