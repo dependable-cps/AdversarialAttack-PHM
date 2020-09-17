@@ -22,7 +22,7 @@ The objective of the attacker is to trigger either an early or delayed maintenan
 # Attack signatures: 
 As mentioned earlier, the FD001 sub-dataset has 100 engines, each of which has 21 sensors. Note, 7 out of these 21 engines can be ignored since their measurements remain constant. For the rest of the 14 sensors, we used the normalization technique to convert the raw sensory data into a normalized scale. Fig. \ref{fig:3d} shows a 3-D representation of the sensor data from engine ID 49 for 300 time cycles. We use the resultant normalized dataset to generate adversarial examples using FGSM and BIM. For illustration, Fig. \ref{fig:FGSMSig} and Fig. \ref{fig:BIMSig} shows examples of a perturbed data from sensor 2 of engine ID 49 crafted using FGSM (with $\epsilon = 0.3$) and BIM (with $\alpha = 0.003$, $\epsilon = 0.3$ and $I= 100$), respectively. From Fig. \ref{fig:BIMSig} it can be observed that the BIM attack generates adversarial examples that are closer to the input. We choose $\epsilon = 0.3$ for both FGSM and BIM attacks to make sure that the crafted adversarial examples are stealthy. Such stealthy attacks often fall within the boundary conditions of the sensor measurements, and hence they are indeed hard to detect using the common attack detection mechanisms.
 
-<img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/3D.PNG" height="400" width="400">
+<img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/3D.PNG" height="300" width="400">
 
 <img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Attack_Signatures.PNG" height="600" width="1000">
 
