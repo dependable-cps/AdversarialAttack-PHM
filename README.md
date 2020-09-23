@@ -43,7 +43,7 @@ From Fig. 6, We observe that the crafted adversarial examples have a strong impa
 <img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Piecewise.PNG" height="400" width="1000">
 
 # Citation
-If this is useful for your work, please cite our <a href="https://arxiv.org/abs/2009.10149">arXiv paper</a>:<br>
+If this is useful for your work, please cite our <a href="https://arxiv.org/abs/2009.10149">paper</a>:<br>
 
 <div class="highlight highlight-text-bibtex"><pre>
 @article{advPHM20,
