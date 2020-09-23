@@ -43,4 +43,13 @@ From Fig. 6, We observe that the crafted adversarial examples have a strong impa
 <img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Piecewise.PNG" height="400" width="1000">
 
 # Citation
-If this is useful for your work, please cite our paper
+If this is useful for your work, please cite our <a href="https://arxiv.org/abs/2009.10149">arXiv paper</a>:<br>
+
+<div class="highlight highlight-text-bibtex"><pre>
+@article{advPHM20,
+title={Crafting Adversarial Examples for Deep Learning Based Prognostics (Extended Version)},
+  author={Mode, Gautam Raj and Hoque, Khaza Anuarul},
+  journal={arXiv preprint arXiv:2009.10149},
+  year={2020}
+}
+</pre></div>
