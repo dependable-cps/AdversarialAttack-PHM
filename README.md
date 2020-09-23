@@ -40,10 +40,10 @@ To elucidate the impact of FGSM and BIM attacks on specific engine data, we firs
 
 From Fig. 6, We observe that the crafted adversarial examples have a strong impact from the beginning of the RUL prediction on the CNN model when compared to the LSTM and GRU models. The piece-wise RUL prediction after the attack on the CNN model follows the same trend of the piece-wise RUL without attack, however, the attacked RUL values remain quite far from the actual prediction. On the other hand, the impact of adversarial attacks on the GRU model is interesting since we observe that the RUL remains almost constant up to 104 time cycles and 129 time cycles for FGSM and BIM attacks, respectively, then starts decreasing. Such a phenomenon is deceiving in nature as it indicates that the engine is quite healthy and may influence a `no maintenance required' decision by the maintenance engineer.  Once again, it is evident that the BIM attack has a stronger impact on piece-wise RUL prediction when compared to the FGSM attack.
 
-<img src="https://github.com/dependable-cps/AdversarialAttackPHM/blob/master/images/Piecewise.PNG" height="400" width="1000">
-
 # Performance variation vs. the amount of perturbation
  In this part of the experiments, we explore the impact of the amount of perturbation $\epsilon$ on the GRU model performance in terms of RMSE. The obtained result is shown in Fig 7. We observe that for the larger values of epsilon, the BIM attack results in higher RMSE when compared to the FGSM. For instance, for epsilon=1.2, the FGSM attack results in an RMSE of 32.63, whereas the BIM attack results in an RMSE of 53.67. This shows that for the same value of epsilon, BIM can generate adversarial examples impacting the RMSE approximately twice when compared to the FGSM.
+
+<img src="https://github.com/dependable-cps/AdversarialAttack-PHM/blob/master/images/Performance.PNG" height="400" width="450">
 
 # Citation
 If this is useful for your work, please cite our <a href="https://arxiv.org/abs/2009.10149">paper</a>:<br>
