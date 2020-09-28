@@ -44,7 +44,7 @@ It is evident from Fig. 5 that LSTM, GRU, and CNN are greatly affected by both F
 # Piece-wise RUL prediction
 To elucidate the impact of FGSM and BIM attacks on specific engine data, we first apply the piece-wise RUL prediction (using the same DL models) for a single-engine (in this case engine ID 17) and then apply the crafted adversarial examples. The piece-wise RUL prediction gives a better visual representation of degradation (health status) in an aircraft engine. 
 
-From Fig. 6, We observe that the crafted adversarial examples have a strong impact from the beginning of the RUL prediction on the CNN model when compared to the LSTM and GRU models. The piece-wise RUL prediction after the attack on the CNN model follows the same trend of the piece-wise RUL without attack, however, the attacked RUL values remain quite far from the actual prediction. On the other hand, the impact of adversarial attacks on the GRU model is interesting since we observe that the RUL remains almost constant up to 104 time cycles and 129 time cycles for FGSM and BIM attacks, respectively, then starts decreasing. Such a phenomenon is deceiving in nature as it indicates that the engine is quite healthy and may influence a `no maintenance required' decision by the maintenance engineer.  Once again, it is evident that the BIM attack has a stronger impact on piece-wise RUL prediction when compared to the FGSM attack.
+From Fig. 6, We observe that the crafted adversarial examples have a strong impact from the beginning of the RUL prediction on the CNN model when compared to the LSTM and GRU models. The piece-wise RUL prediction after the attack on the CNN model follows the same trend of the piece-wise RUL without attack, however, the attacked RUL values remain quite far from the actual prediction. On the other hand, the impact of adversarial attacks on the GRU model is interesting since we observe that the RUL remains almost constant up to 104 time cycles and 129 time cycles for FGSM and BIM attacks, respectively, then starts decreasing. Such a phenomenon is deceiving in nature as it indicates that the engine is quite healthy and may influence a 'no maintenance required' decision by the maintenance engineer.  Once again, it is evident that the BIM attack has a stronger impact on piece-wise RUL prediction when compared to the FGSM attack.
 
 <div align="center">
 <img src="https://github.com/dependable-cps/AdversarialAttack-PHM/blob/master/images/Piecewise.PNG" height="400" width="1000">
@@ -59,6 +59,7 @@ From Fig. 6, We observe that the crafted adversarial examples have a strong impa
 <img src="https://github.com/dependable-cps/AdversarialAttack-PHM/blob/master/images/Performance.PNG" height="320" width="400">
 
 </div>
+
 # Citation
 If this is useful for your work, please cite our <a href="https://arxiv.org/abs/2009.10149">paper</a>:<br>
 
