@@ -52,7 +52,7 @@ From Fig. 6, We observe that the crafted adversarial examples have a strong impa
 
 
 # Performance variation vs. the amount of perturbation
- In this part of the experiments, we explore the impact of the amount of perturbation $\epsilon$ on the GRU model performance in terms of RMSE. The obtained result is shown in Fig 7. We observe that for the larger values of epsilon, the BIM attack results in higher RMSE when compared to the FGSM. For instance, for epsilon=1.2, the FGSM attack results in an RMSE of 32.63, whereas the BIM attack results in an RMSE of 53.67. This shows that for the same value of epsilon, BIM can generate adversarial examples impacting the RMSE approximately twice when compared to the FGSM.
+ In this part of the experiments, we explore the impact of the amount of perturbation epsilon on the GRU model performance in terms of RMSE. The obtained result is shown in Fig 7. We observe that for the larger values of epsilon, the BIM attack results in higher RMSE when compared to the FGSM. For instance, for epsilon=1.2, the FGSM attack results in an RMSE of 32.63, whereas the BIM attack results in an RMSE of 53.67. This shows that for the same value of epsilon, BIM can generate adversarial examples impacting the RMSE approximately twice when compared to the FGSM.
 
 <div align="center">
 
